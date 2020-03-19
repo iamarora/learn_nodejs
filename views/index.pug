@@ -1,0 +1,17 @@
+doctype html
+
+html(lang='en')
+  head
+    title= title
+  body
+    table(style='width:100%', border='1')
+      tr
+        th Author
+        th Post Title
+        th Post Body
+
+      each post in posts
+        tr
+          td= post.name
+          td= post.title
+          td= post.body

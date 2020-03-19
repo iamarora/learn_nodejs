@@ -1,0 +1,25 @@
+{
+  "name": "learn_nodejs",
+  "version": "1.0.0",
+  "description": "Small app to learn NodeJS, ExpressJS - fetch data, store to db and display the data",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iamarora/learn_nodejs.git"
+  },
+  "author": "Ankit Arora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamarora/learn_nodejs/issues"
+  },
+  "homepage": "https://github.com/iamarora/learn_nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "pg": "^7.18.2",
+    "pug": "^2.0.4"
+  }
+}
