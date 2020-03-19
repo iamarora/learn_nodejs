@@ -9,10 +9,11 @@ Simple and small app to understand NodeJS, how to interact with webservices and 
 * npm 
 
 **Setup steps**
-* Clone this repository
+* Clone this repository.
 * Create a user, database and tables in postgresql as descriped in `postgresql_setup.sql`
+* Run `npm install` to setup node dependencies.
 
 **To run express.js REST api server**
-`npm start`
+* `npm start`
 * In your browser open `http://localhost:3000/refresh` so that the users and posts table is populated.
 * then open `http://localhost:3000/` to see the data.
